@@ -1,0 +1,197 @@
+
+.titulos{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.hero-video{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+.bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter:brightness(0.5);
+}
+
+.navbarline{
+  border-bottom: solid #008A23 1px;
+}
+
+.green{
+  color: #008A23;
+}
+
+.dropdown-menu{
+  border: none;
+}
+
+.zonewise{
+  height: 40px;
+}
+
+.estadisticas{
+  border-top: #008A23 solid 1px;
+  border-bottom: #008A23 solid 1px;
+}
+.icono-circulo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0 auto 10px;
+    color: white;
+}
+.bg-purple{
+  background-color:#A39DFF ;
+}
+.bg-green{
+  background-color: #ADC576;
+
+}
+.bg-map{
+  background-color: #FF9F6B;
+
+}
+.bg-blue{
+  background-color: #73C0FF;
+
+}
+.bg-grey{
+  background-color: rgba(128, 128, 128, 0.164);
+}
+
+.estadisticas_cards:hover{
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+.section-title{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+
+.card-consejos{
+    border: none ;
+    border-radius: 8px;
+    padding:10%;
+    margin:5%;
+    flex: 1 1 calc(25% - 20px);
+
+    text-align: center;
+}
+
+.img{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+card-title{
+    overflow: hidden;
+    
+}
+
+card-text{
+    width: 100%;
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+    text-size-adjust: 10px;
+}
+
+
+.letra_pequeña{
+    font-size: x-small;
+    color: black;
+}
+
+.badge {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #6AA84F;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+.recomendado {
+  background-color: #6AA84F;
+}
+
+.informativo {
+  background-color: #8FBC8F;
+}
+
+#carta{
+    border: 1px solid #c4c4c4;
+}
+
+.letra_grande{
+    font-size: xx-large;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.image-container {
+  position: relative; 
+}
+
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.badge_text{
+  display: inline-block;
+  background-color: #6da76d;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px; 
+}
+
+i, svg, span {
+  display: inline-block;
+  vertical-align: middle;
+}
+span {
+  margin-left: 5px;
+}
+
+.dropdown-item:hover{
+  cursor: pointer ;
+  background-color: #6da76d;
+}

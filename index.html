@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="img/jpeg" href="../images/zonewiselogo.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>ZoneWise</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbarline navbar-expand-lg fixed-top shadow bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold titulos" href="#"><img src="images/zonewise.png" class="zonewise" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item "><a class="nav-link green" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#estadisticas">Estadisticas</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recomendaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#recomendaciones">Recomendaciones de seguridad</a></li>
+                            <li><a class="dropdown-item " href="#consejos">Consejos preventivos</a></li>
+                            <li><a class="dropdown-item" href="#comentarios">Comentarios de la comunidad</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!--Carrousel-->
+
+
+    <div id="inicio" class="carousel slide" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video autoplay loop muted playsinline class="d-block w-100">
+                    <source src="images/hero.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="carousel-item">
+                <img src="images/zonewise.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Contenido-->
+    <div class="container text-center my-5" id="estadisticas">
+        <div class="row justify-content-center g-5">
+            <div class="col-6 col-md-3 pt-5">
+                <div class="icono-circulo bg-green">
+                    <i class="bi bi-activity "></i>
+                </div>
+                <h6>Predicciones</h6>
+            </div>
+            <div class="col-6 col-md-3 pt-5">
+                <div class="icono-circulo bg-map">
+                    <i class="bi bi-geo-alt-fill "></i>
+                </div>
+                <h6>Mapa de riesgo</h6>
+            </div>
+            <div class="col-6 col-md-3 pt-5">
+                <div class="icono-circulo bg-blue">
+                    <i class="bi bi-file-earmark-richtext"></i>
+                </div>
+                <h6>Noticias</h6>
+            </div>
+            <div class="col-6 col-md-3 pt-5">
+                <div class="icono-circulo bg-purple">
+                    <i class="bi bi-book"></i>
+                </div>
+                <h6>Educacion</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--Estadisticas de desastres-->
+    <br><br>
+    <section class="section " >
+        <div class="container">
+            <h2 class="titulos text-center pt-3">Estadisticas de desastres</h2>
+            <p style="color: rgba(0, 0, 0, 0.562);" class="text-center">Informacion clave</p>
+            <div class="row  g-5">
+
+                <div class="col-md-4">
+                    <div class="card estadisticas_cards">
+                        <div class="card-body" style="border: #5ed4c1 solid 1px; border-radius: 5px;">
+                            <br>
+                            <h5 class="card-title text-center">Inundaciones</h5>
+                            <h2 class="card-text text-center">30</h2>
+                            <p class="card-text text-center">+5%</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card estadisticas_cards ">
+                        <div class="card-body" style="border: #01c532 solid 1px; border-radius: 5px;">
+                            <br>
+                            <h5 class="card-title text-center">Deslizamientos</h5>
+                            <h2 class="card-text text-center">10</h2>
+                            <p class="card-text text-center">+2%</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card estadisticas_cards ">
+                        <div class="card-body" style="border: #e7cf16 solid 1px; border-radius: 5px;">
+                            <br>
+                            <h5 class="card-title text-center">incendios</h5>
+                            <h2 class="card-text text-center">5</h2>
+                            <p class="card-text text-center">+10%</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <br><br>
+
+    <!--Recomendaciones -->
+     <br>
+    <section id="recomendaciones" class="section bg-white text-while">
+        <div class="container">
+            <h2 class="titulos text-center">Recomendaciones de seguridad</h2>
+            <br>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card bg-white text-black border-0 h-100 bg-grey">
+                        <img src="images/recomendaciones/botiquin.jpg"
+                            alt="">
+                        <div class="card-img-overlay">
+                            <div class="badge recomendado">Recomendado</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-img-overlay" id="carta"> </div>
+                            <p class="letra_pequeña">Kit de emergencia</h6>
+                            <p class="card-text">Todo lo necesario para primeros auxilios.
+                                <br> 💊
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card bg-white text-black border-0 h-100">
+                        <img src="images/recomendaciones/desastres.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="badge recomendado">Informativo</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-img-overlay" id="carta"></div>
+                            <p class="letra_pequeña">Guía de Emergencias</h6>
+                            <p class="card-text">Cosas que debes hacer en caso de desastres.
+                                <br> 🚨
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card bg-white text-black border-0 h-100">
+                        <div class="image-container">
+                            <img src="images/recomendaciones/primeros auxilios.jpg" alt="">
+                            <span class="badge">Informativo</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-img-overlay" id="carta"></div>
+                            <p class="letra_pequeña">Cuia de primeros auxilios</h6>
+                            <p class="card-text">Cosas que debes saber en caso de un accidente.
+                                <br> ⚕️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+
+
+    <!--Consejos Preventivos-->
+    <section id="consejos" class="section bg-white ">
+        <div class="container">
+            <h2 class=" titulos text-center pt-3">Consejos Preventivos</h2>
+            <div class="row ">
+                        <!-- Card 1 -->
+                        <div class="col-md-4 ">
+                            <div class="card  card-consejos p-3 d-flex flex-column justify-content-between">
+                                <div class="d-flex align-items-start">
+                                    <div class="me-3">
+                                        <div style="border-radius: 5px; "
+                                         class=" d-flex bg-blue align-items-center justify-content-center icono-circulo">
+                                            <i class="bi bi-water" style="color: white;"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">¿Qué hacer en caso de inundación?</h6>
+                                        <p class="mb-1 small">Busca un lugar alto y sigue las indicaciones de las
+                                            autoridades.</p>
+                                    </div>
+                                </div>
+                                <small class="text-muted mt-2">Actualizado hace 3 min</small>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Card 2 -->
+                        <div class="col-md-4 ">
+                            <div class="card  card-consejos p-3 d-flex flex-column justify-content-between">
+                                <div class="d-flex align-items-start">
+                                    <div class="me-3">
+                                        <div style="border-radius: 5px;"
+                                         class=" d-flex bg-green align-items-center justify-content-center icono-circulo">
+                                            <i class="bi bi-exclamation-diamond" style="color: white;"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Consejos en caso de desastres</h6>
+                                        <p class="mb-1 small">Aléjate de zonas inestables y sigue las alertas.</p>
+                                    </div>
+                                </div>
+                                <small class="text-muted mt-2">Actualizado hace 3 min</small>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-md-4">
+                            <div class="card card-consejos p-3 d-flex flex-column justify-content-between">
+                                <div class="d-flex align-items-start">
+                                    <div class="me-3">
+                                        <div style="border-radius: 5px;"
+                                         class=" d-flex bg-purple align-items-center justify-content-center icono-circulo">
+                                            <i class="bi bi-broadcast" style="color: white;"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">¿Qué hacer en caso de un temblor?</h6>
+                                        <p class="mb-1 small">Agáchate, cúbrete y sujétate. Sigue indicaciones y
+                                            prepárate para réplicas.    </p>
+                                    </div>
+                                </div>
+                                <small class="text-muted mt-2">Actualizado hace 3 min</small>
+                            </div>
+                        </div>
+
+                   
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!--Comentarios de la comunidad-->
+     <br><br>
+    <section id="ranking" class="section bg-white text-while">
+        <div class="container">
+            <h2 class="text-center titulos">Comentarios de la comunidad</h2>
+            <br>
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card bg-white text-black border-0 h-100">
+                        <img src="images/comentarios/deslizamiento.jpg"
+                            alt="">
+                        <div class="card-body">
+                            <div class="card-img-overlay" id="carta"> </div>
+                            <p class="card-text">Muy preocupada por el pronóstico de lluvia, debemos estar preparados.</p>
+                            
+                            <span class="badge_text">#Riesgo</span>
+                            <br>
+                            <i class="bi bi-person-circle "></i>
+                            
+                            <span>Ana Perez</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="card bg-white text-black border-0 h-100">
+                        <img src="images/comentarios/kit.jpg"
+                            alt="">
+                        <div class="card-body">
+                            <div class="card-img-overlay" id="carta"> </div>
+                            <p class="card-text">Importante tener un kit de emergencias en casa.</p>
+
+                            <span class="badge_text">#Prevencion</span>
+                            <br>
+                            <i class="bi bi-person-circle"></i>
+                            
+                            <span>Juan Rodriguez</span>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+            
+        </div>
+        <hr class="border-secondary">
+    </section>
+
+
+
+    <!--Footer-->
+
+<footer class="bg-white text-black pt-5 pb-4">
+    <div class="container">
+        <div class="row">
+                <a class="navbar-brand fw-bold titulos text-center" href="#"><img src="images/zonewise.png" class="zonewise" alt=""></a>
+                <!--contacto-->
+                <div class="col-md-4 mb-4">
+            </div>
+            <div class="col-md-4 mb-4">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-black fs-5"><i class="bi bi-telephone"></i>xxxxxxxx</a></li>
+                    <li><a href="#" class="text-black fs-5"><i class="bi bi-envelope"></i>xxxx@xxxx</a></li>
+                    <li><a href="#" class="text-black fs-5"><i class="bi bi-geo-alt-fill"></i>xxxx@xxxx</a></li>
+                </ul>
+            </div>
+            <!--Redes sociales-->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-secondary"></h5>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-success fs-5 text-smaller"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-success fs-5 text-smaller"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-success fs-5 text-smaller"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-success fs-5 text-smaller"><i class="bi bi-chat"></i></a>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </footer> 
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
